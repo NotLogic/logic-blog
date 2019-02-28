@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    index page
+    <div class="header"></div>
+    
   </div>
 </template>
 
