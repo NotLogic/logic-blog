@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .count-down{
+      font-size: 18px;
+      color: coral;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <span>您要的东西没找到诶，正在返回主页，倒计时</span>
+    <span id="count-down" class="count-down">3</span>
+    <span>秒</span>
+  </div>
+  <script>
+    var dom = document.getElementById('count-down')
+    var num = 3;
+    var timer = setInterval(function(){
+      num--
+      dom.innerText = num
+      if(!num){
+        clearInterval(timer)
+        window.location.href = 'index.html'
+      }
+    }, 1000)
+  </script>
+</body>
+
+</html>

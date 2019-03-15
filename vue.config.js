@@ -1,6 +1,6 @@
 module.exports = {
   devServer: {
-    port: 8086,
+    port: 1314,
     // proxy: {
     //   // 可以配置多个不同的代理
     //   '/apis': {
@@ -25,11 +25,11 @@ module.exports = {
   },
   configureWebpack: {
     externals: {
-      'vue': 'Vue',
-      'vue-router': 'VueRouter',
-      'vuex': 'Vuex',
-      'axios': 'axios',
-      'element-ui': 'ELEMENT',
+      // 'vue': 'Vue',
+      // 'vue-router': 'VueRouter',
+      // 'vuex': 'Vuex',
+      // 'axios': 'axios',
+      // 'element-ui': 'ELEMENT',
       // 'iView': 'iView',
     }
   }
