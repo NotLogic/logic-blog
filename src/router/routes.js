@@ -8,9 +8,14 @@ const loginRoute = {
 export const mainRoutes = [
   {
     path: '/',
-    name: '',
+    name: 'index',
     component: resolve => { require(['@/pages/index'], resolve) },
-  }
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: resolve => { require(['@/pages/about'], resolve) },
+  },
   // {
   //   path: '/',
   //   name: 'common',

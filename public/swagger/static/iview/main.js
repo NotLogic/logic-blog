@@ -771,7 +771,7 @@ new Vue({
 	},
 	methods: {
 		goHome: function(){
-			window.location.href = '../index.html'
+			window.location.href = '../'
 		},
 		// 添加自定义头部
 		addCustomHeader: function(){

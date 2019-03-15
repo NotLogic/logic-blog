@@ -1,24 +1,18 @@
 <template>
-  <div>
-
-  </div>
+  <a href=""></a>
 </template>
 
 <script>
 export default {
-  name: 'common-layout',
+  name: 'nav-button',
   data(){
     return {
 
     }
   },
-  methods: {
-    
-  }
 }
 </script>
 
 <style scoped>
 
 </style>
-
