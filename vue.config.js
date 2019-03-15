@@ -13,6 +13,8 @@ module.exports = {
     //   },
     // }
   },
+  // 生产环境不产生map文件
+  productionSourceMap: false,
   css: {
     loaderOptions: {
       // 给 sass-loader 传递选项
