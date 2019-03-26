@@ -24,7 +24,7 @@
         <li class="project-item" to='swagger/index.html'>swagger接口</li>
       </ul>
       <div class="copyright">
-        <a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备19016917号</a>
+        <a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备19016917号-2</a>
         <div>仅供个人学习使用</div>
       </div>
     </div>
