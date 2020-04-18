@@ -1,3 +1,2 @@
-export function Login(state, palyload){
-  
+export function Login(){
 }

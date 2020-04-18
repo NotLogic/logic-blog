@@ -5,19 +5,15 @@
 </template>
 
 <script>
-import LogicHeader from '@/components/header'
 export default {
   name: 'home',
   components: {
-    LogicHeader
   },
   data(){
     return {
-      
     }
   },
   methods: {
-    
   }
 }
 </script>

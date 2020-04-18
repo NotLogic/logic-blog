@@ -33,7 +33,7 @@ const types = {
   "txt": "application/plain",
   "jad": "application/vnd.sun.j2me.app-descriptor",
   "wml": "application/vnd.wap.wml",
-  "htc": "application/x-component",  
+  "htc": "application/x-component",
   "woff": "application/font-woff",
   "jar": "application/java-archive",
   "war": "application/java-archive",
@@ -111,7 +111,7 @@ const types = {
   "asx": "video/x-ms-asf",
   "asf": "video/x-ms-asf",
   "wmv": "video/x-ms-wmv",
-  "avi": "video/x-msvideo",  
+  "avi": "video/x-msvideo"
 }
 
 http.createServer(function (request, response) {

@@ -9,10 +9,12 @@ const router = new Router({
   // routes: commonRoutes,
   routes: routes
 })
+// eslint-disable-next-line
 router.beforeEach((to, from, next) => {
   loadingBar.start()
   next()
 })
+// eslint-disable-next-line
 router.afterEach((to, from) => {
   loadingBar.finish()
 })

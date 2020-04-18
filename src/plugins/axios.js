@@ -1,9 +1,7 @@
-"use strict";
-
 import Vue from 'vue';
 import axios from "axios";
 import Message from 'element-ui/packages/message/index.js';
-import { MessageBox } from 'element-ui';
+// import { MessageBox } from 'element-ui';
 
 // Full config:  https://github.com/axios/axios#request-config
 // axios.defaults.baseURL = process.env.baseURL || process.env.apiUrl || '';
@@ -33,15 +31,14 @@ http.interceptors.response.use(
   function(response) {
     // Do something with response data
     // 登录超时，提示进行重新登录
-    if(false){
-      MessageBox.confirm('请点击确定前往登录页进行重新登录', '登录超时', {
-        confirmButtonText: '确定',
-        cancelButtonText: '取消',
-        type: 'warning'
-      }).then(() => {
-        
-      })
-    }
+    // if(false){
+    //   MessageBox.confirm('请点击确定前往登录页进行重新登录', '登录超时', {
+    //     confirmButtonText: '确定',
+    //     cancelButtonText: '取消',
+    //     type: 'warning'
+    //   }).then(() => {
+    //   })
+    // }
     return response;
   },
   function(error) {
