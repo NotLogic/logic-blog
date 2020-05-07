@@ -1,5 +1,5 @@
 <template>
-  <div id="app">    
+  <div id="app">
     <div class="logic-header">
       <LogicHeader />
     </div>
@@ -22,6 +22,7 @@
       </form>
       <ul class="project-list" @click="previewProject">
         <li class="project-item" to='swagger/index.html'>swagger接口</li>
+        <li class="project-item" to='xyz/index.html'>xyz</li>
       </ul>
       <div class="copyright">
         <a target="_blank" href="http://www.miitbeian.gov.cn">豫ICP备20006920号-1</a>
