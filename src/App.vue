@@ -21,8 +21,8 @@
         </fieldset>
       </form>
       <ul class="project-list" @click="previewProject">
-        <li class="project-item" to='swagger/index.html'>swagger接口</li>
-        <li class="project-item" to='xyz/index.html'>xyz</li>
+        <li class="project-item" :to='env.swagger'>swagger接口</li>
+        <li class="project-item" :to='env.xyz'>xyz</li>
       </ul>
       <div class="copyright">
         <a target="_blank" href="http://www.miitbeian.gov.cn">豫ICP备20006920号-1</a>
@@ -37,10 +37,16 @@
 
 <script>
 import LogicHeader from '@/components/header'
+import env from '@/config'
 export default {
   name: 'app',
   components: {
     LogicHeader
+  },
+  data () {
+    return {
+      env
+    }
   },
   methods: {
     previewProject(e){
